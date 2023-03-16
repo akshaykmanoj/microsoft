@@ -1,0 +1,395 @@
+
+body{
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading{ 
+    width: 90%;
+    margin: 0px; 
+
+    height: 20px;
+}
+.navtext{
+    font-size: 13px;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: rgb(38, 38, 38);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.navtext1{
+    font-size: 13px;
+    margin-top: 0.5%;
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+.caroimage{
+    height: 450px;
+}
+.carousel-item{
+    position: relative;
+    z-index: 1;
+}
+.carousel-caption{
+    position: absolute;
+    top: 20%;  
+   
+}
+.carousel-caption a{
+    right: 0; 
+   
+}
+.main-h1{
+    text-align: left;
+    color: #000;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+.main-p1{
+    text-align:left; 
+    color: black;
+     
+    
+    font-weight:lighter;
+    line-height: 1.5;
+    
+}
+
+.main-h2{
+    margin-left:13%;
+    color: black;  
+}
+.main-p2{
+    text-align: right;
+    color: black;
+    font-weight: 500;   
+}
+.main-a{
+    margin-left: 2%;
+    border: 1px solid yellow;
+    color: black;
+}
+.main-but1{
+    position: absolute;
+    left: 0;
+    
+}
+.main-but2{
+
+    position: absolute; 
+    
+}
+main{
+    margin: 100px 0;
+}
+.m1{
+    margin-top: 10%;
+    color: #000;
+    margin-left: 25%;
+}
+.p1{
+    color: #000;
+    margin-left: 35%;
+}
+    
+
+@media screen and (max-width:1040px) {
+    
+    .main-h1{
+        font-size: 29px;
+       }
+       .main-p1{
+        font-size: 15px;
+       }
+       .main-h2{
+        font-size: 29px;
+       }
+       .main-p2{
+        font-size: 15px;
+       }
+       .parapichead{
+        font-size: 29px;
+       }
+       .parapicpara{
+       font-size: 15px;
+       }
+  
+}
+@media screen and (max-width:750px) {
+    
+   .main-h1{
+    font-size: 10px;
+    margin-left: -35px;
+   }
+   .main-p1{
+    font-size: 5px;
+    margin-left: -35px;
+   }
+   .main-but1{
+    margin-left: -35px;
+    }
+    .main-h2{
+        font-size: 10px;
+        margin-left: -35px;
+       }
+       .main-p2{
+        font-size: 5px;
+        margin-left: -35px;
+       }
+       .main-but2{
+        margin-left: -35px;
+        }
+        .parapichead{
+            font-size: 10px;
+           }
+           .parapicpara{
+           font-size: 5px;
+           }
+
+}
+@media screen and (max-width:500px) {
+    
+   .main-h1{
+   
+    font-size: 17px;
+    margin-left:-46px;
+   }
+   .main-p1{
+    font-size: 10px;
+    margin-left:-46px;
+   }
+   .main-but1{
+    margin-left:-46px;
+    width: 65px;
+    height: 23px;
+    font-size: 8px !important;
+    }
+    .main-h2{
+   
+        font-size: 17px;
+        margin-left:-46px;
+       }
+       .main-p2{
+        font-size: 10px;
+        margin-left:-46px;
+       }
+       .main-but2{
+        margin-left:-46px;
+        width: 65px;
+        height: 23px;
+        font-size: 8px !important;
+        }
+        .parapichead{
+            font-size: 17px;
+           }
+           .parapicpara{
+           font-size: 10px;
+           }
+    
+}
+.card{
+    border: none!important;
+    /* margin-left: 20px; */
+     padding-right: 20px; 
+    padding-left: 20px;
+}
+.a{
+    text-decoration: none;
+}
+.card title{
+    font-family: inherit;
+    font-weight: 800;
+    line-height: 1.2;
+    font-size: 1.5rem;
+    color: #000;
+}
+.card text{
+    color: #000;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.linksent{
+    
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: underline;
+    color: #0067b8;
+    
+
+}
+
+.parapic{
+    width: 100%;
+    height: 600px;
+    background-image: url("/image/parapic.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 20px 0;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 60px;
+}
+.size{
+    margin: 100px 0;
+}
+.lastsec{
+    height: 100px;
+    
+
+}
+.iconimage{
+    height: 32px;
+    width: 32px;
+    margin: 10px;
+}
+.lastsentance{
+    text-decoration: none;
+    color: black;
+    word-spacing: 5px;
+    margin: 10px;
+    font-size: 1rem;
+}
+.footerul{
+    list-style: none;
+    font-size: 10px;
+}
+footer{
+    background: #f2f2f2;
+    padding:40px 0;
+    
+}
+.footerf{
+    text-decoration: none;
+    color: #616161;
+    font-size: 11px;
+}
+.footerl{
+    color: #616161;
+    margin-left: 15%;
+}
+
+.footli{
+    position: relative;
+    top: 10px;
+
+}
+.me-4{
+    text-decoration: none;
+    font-size: 12px;
+}
+.btn1{
+    border: none;
+    margin-left: 20%;  
+}
+.paddsection {
+    padding-top: 50px;
+    padding-bottom: 0px;
+    margin-top: 10px;
+    background-color: rgba(128, 127, 127, 0.753)
+  }
+#contact {
+    height: auto;
+    width: 100%;
+}
+.contact-contact {
+    margin-bottom: 30px;
+}
+.contact-contact h2 {
+    text-align: center;
+    margin-top: 40px;
+    font-weight: bold;
+}
+.contact-contact p {
+    text-align: center;
+    margin-top: 40px;
+}
+  
+.contact-details {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.contact-details li {
+    padding-bottom: 10px;
+}
+  
+#contact input,
+#contact textarea {
+    width: 100%;
+    margin-bottom: 5px;
+}
+  
+#contact textarea {
+    min-height: 160px;
+}
+  
+.php-email-form .error-message {
+    display: none;
+    color: #fff;
+    background: #ed3c0d;
+    text-align: left;
+    padding: 15px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+  
+.php-email-form .error-message br+br {
+    margin-top: 25px;
+}
+  
+.php-email-form .sent-message {
+    display: none;
+    color: #fff;
+    background: #18d26e;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+  
+.php-email-form .loading {
+    display: none;
+    background: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .php-email-form .loading:before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px -6px 0;
+    border: 3px solid #18d26e;
+    border-top-color: #eee;
+    animation: animate-loading 1s linear infinite;
+  }
+  
+  @keyframes animate-loading {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
